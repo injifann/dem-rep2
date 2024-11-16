@@ -1,0 +1,64 @@
+body
+{
+  border:2px solid black;
+  background-image: url("background.png");
+  background-position: center;
+  padding:0 10%;
+  background-color:#d2dc9d;
+ }
+
+#header
+{
+  background-image: url("background2.png");
+  background-repeat: repeat-x;
+  padding-top: 40px;
+  background-color:#fff;
+  opacity: 0.65;;
+}
+
+#header h1
+{
+  color:#993399;;
+}
+
+#header h1,#info p,ul li,div h2+p
+{
+  text-align: center;;
+}
+#info p{
+  font-style: italic;
+}
+#info .label{
+  font-style: normal;
+}
+a
+{
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+ul li
+{
+list-style: none;
+}
+
+ul li a
+{
+color:#c700f2;
+}
+
+p a, [href="#toast"]{
+  color: #937393;
+}
+div h2
+{
+  color: #cc6600;
+  text-align: center;
+}
+dl dt,.label
+{
+  font-weight: bold;
+}
+.price{
+  font-style: oblique;
+}
